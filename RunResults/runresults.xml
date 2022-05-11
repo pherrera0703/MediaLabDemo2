@@ -1,0 +1,585 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2022-05-11 20:45:33</RunStartTime>
+        <Timezone>GMT+0000 (Coordinated Universal Time)</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>UFT Developer Report</ReportTitle>
+        <CustomFields name="UFT Mobile Server:" value="https://demo.mobilecenter.io"/>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2022-05-11 20:45:33</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration><![CDATA[00:00:42.359]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Linux 4.18.0-348.2.1.el8_5.x86_64]]></OSInfo>
+                <HostName>nimbusserver</HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>31960</TotalMemory>
+                <Locale>POSIX</Locale>
+                <Timezone><![CDATA[GMT+0000 (Coordinated Universal Time)]]></Timezone>
+                <User>demo</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>UFT Developer</ToolName>
+            <ToolVersion><![CDATA[2021.1]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.company]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2022-05-11 20:45:33</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:42.334]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.company.UFTDeveloperTest]]></Name>
+                    <Description/>
+                    <StartTime>2022-05-11 20:45:33</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration><![CDATA[00:00:42.334]]></Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name><![CDATA[test_On_Android_AminoDemo]]></Name>
+                        <Description/>
+                        <StartTime>2022-05-11 20:45:33</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration><![CDATA[00:00:42.333]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.Lock]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>06157df6236f0023</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Device Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>id</td><td class='ex-value'>06157df6236f0023</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>SM-G920F</td></tr><tr><td class='ex-name'>model</td><td class='ex-value'>SM-G920F</td></tr><tr><td class='ex-name'>manufacturer</td><td class='ex-value'>samsung</td></tr><tr><td class='ex-name'>os type</td><td class='ex-value'>ANDROID</td></tr><tr><td class='ex-name'>os version</td><td class='ex-value'>7.0</td></tr></table>]]></Description>
+                            <StartTime>2022-05-11 20:45:33</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.000]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>06157df6236f0023</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Device Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>id</td><td class='ex-value'>06157df6236f0023</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>SM-G920F</td></tr><tr><td class='ex-name'>model</td><td class='ex-value'>SM-G920F</td></tr><tr><td class='ex-name'>manufacturer</td><td class='ex-value'>samsung</td></tr><tr><td class='ex-name'>os type</td><td class='ex-value'>ANDROID</td></tr><tr><td class='ex-name'>os version</td><td class='ex-value'>7.0</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption><![CDATA[Device.<span class='emphasis'>Lock</span>]]></FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip><![CDATA[Device.Lock]]></FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[*Amino.launch]]></Name>
+                            <Description/>
+                            <StartTime>2022-05-11 20:45:51</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:03.778]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[*Amino]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>launch</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[identifier]]></Name>
+                                                <Value><![CDATA["com.narvii.amino.master.dev"]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[isPackaged]]></Name>
+                                                <Value><![CDATA[false]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Application</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[*Amino]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.sendString]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>pherrera1967@gmail.com</td></tr></table>]]></Description>
+                            <StartTime>2022-05-11 20:45:54</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:02.968]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>sendString</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>pherrera1967@gmail.com</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[id]]></Name>
+                                                <Value><![CDATA[06157df6236f0023]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[name]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[model]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[manufacturer]]></Name>
+                                                <Value><![CDATA[samsung]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os type]]></Name>
+                                                <Value><![CDATA[ANDROID]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os version]]></Name>
+                                                <Value><![CDATA[7.0]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.sendKey]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>TAB</td></tr></table>]]></Description>
+                            <StartTime>2022-05-11 20:45:57</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:02.998]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>sendKey</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>TAB</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[id]]></Name>
+                                                <Value><![CDATA[06157df6236f0023]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[name]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[model]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[manufacturer]]></Name>
+                                                <Value><![CDATA[samsung]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os type]]></Name>
+                                                <Value><![CDATA[ANDROID]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os version]]></Name>
+                                                <Value><![CDATA[7.0]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.sendString]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Polo123</td></tr></table>]]></Description>
+                            <StartTime>2022-05-11 20:46:00</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:03.495]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>sendString</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>Polo123</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[id]]></Name>
+                                                <Value><![CDATA[06157df6236f0023]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[name]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[model]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[manufacturer]]></Name>
+                                                <Value><![CDATA[samsung]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os type]]></Name>
+                                                <Value><![CDATA[ANDROID]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os version]]></Name>
+                                                <Value><![CDATA[7.0]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Device.sendKey]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>TAB</td></tr></table>]]></Description>
+                            <StartTime>2022-05-11 20:46:04</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:02.965]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>sendKey</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>TAB</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[id]]></Name>
+                                                <Value><![CDATA[06157df6236f0023]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[name]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[model]]></Name>
+                                                <Value><![CDATA[SM-G920F]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[manufacturer]]></Name>
+                                                <Value><![CDATA[samsung]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os type]]></Name>
+                                                <Value><![CDATA[ANDROID]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[os version]]></Name>
+                                                <Value><![CDATA[7.0]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Device</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[LOG IN.tap]]></Name>
+                            <Description/>
+                            <StartTime>2022-05-11 20:46:07</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:03.843]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[*Amino]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Button</Type>
+                                                <Name><![CDATA[LOG IN]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>tap</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[LOG IN]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[android.widget.Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[resourceId]]></Name>
+                                                <Value><![CDATA[com.narvii.amino.master.dev:id/login]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[mobileCenterIndex]]></Name>
+                                                <Value><![CDATA[0]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[className]]></Name>
+                                                <Value><![CDATA["Button"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[*Amino]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Button</Type>
+                                                    <Name><![CDATA[LOG IN]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[*Amino.uninstall]]></Name>
+                            <Description/>
+                            <StartTime>2022-05-11 20:46:11</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:04.568]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Mobile.Device</Type>
+                                                <Name><![CDATA[Device]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Mobile.Application</Type>
+                                                <Name><![CDATA[*Amino]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>uninstall</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[identifier]]></Name>
+                                                <Value><![CDATA["com.narvii.amino.master.dev"]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[isPackaged]]></Name>
+                                                <Value><![CDATA[false]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Application</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Mobile.Device</Type>
+                                                    <Name><![CDATA[Device]]></Name>
+                                                    <IconKey>Device</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Mobile.Application</Type>
+                                                    <Name><![CDATA[*Amino]]></Name>
+                                                    <IconKey>Application</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>

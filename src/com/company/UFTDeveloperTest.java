@@ -46,7 +46,7 @@ public class UFTDeveloperTest extends UnitTestClassBase {
                 .identifier("com.narvii.amino.master.dev")
                 .packaged(false).build());
 
-        //aminoApplication.install();
+        //aminoApplication.install();  This shouldn't be used during the test
         aminoApplication.launch();
 
         device.sendString("pherrera1967@gmail.com");
